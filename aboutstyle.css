@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body{
+    background-image: url(image/ab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: teal;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 0px black;
+}
+.peshang{
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 200px;
+}
+.pe{
+    color: white;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.collapse{
+    justify-content: right;
+}
+.navbar-nav{
+    font-size: 20px;
+    font-family: krona;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+    letter-spacing: 2px;
+    transition: 0.1s;
+    
+}
+.nav-link:hover{
+    color: black !important;
+    border-bottom: 2px solid black;
+    
+}
+.active{
+    color: black !important;
+    border-bottom: 2px solid black;
+    
+    
+}
+.row{
+    margin-top: 200px;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0px;
+    font-family: krona;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 3px;
+}
+.ap{
+    margin-top: 20px 0px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}

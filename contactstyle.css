@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body{
+    background-color: rgb(71, 142, 145) !important;
+}
+.navbar{
+    background-color: teal;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 0px black;
+}
+.peshang{
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 200px;
+}
+.pe{
+    color: white;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.collapse{
+    justify-content: right;
+}
+.navbar-nav{
+    font-size: 20px;
+    font-family: krona;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+    letter-spacing: 2px;
+    transition: 0.1s;
+    
+}
+.nav-link:hover{
+    color: black !important;
+    border-bottom: 2px solid black;
+    
+}
+.active{
+    color: black !important;
+    border-bottom: 2px solid black;
+    
+    
+}
+.p{
+    text-align: center;
+    margin-top: 165px;
+    padding: 15px;
+}
+.title{
+    color:black;
+    font-size: 50px;
+    font-family: Righteus;
+    font-weight: 700;
+}
+.p p{
+    font: normal 300 25px Righteus;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: white;
+}
+.list ul{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-family: Righteus;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 49px;
+    padding: 20px;
+}
+.fb img{
+    width: 35px !important;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.tel img{
+    width: 35px;
+    margin-right: 15px;
+}
+.vi img{
+    width: 35px;
+    margin-right: 15px;
+}
+.gm img{
+    width: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
